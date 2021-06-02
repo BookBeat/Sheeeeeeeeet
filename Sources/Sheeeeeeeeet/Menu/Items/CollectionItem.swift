@@ -54,6 +54,7 @@ open class CollectionItem: MenuItem {
 public protocol CollectionItemType {
     
     static var preferredSize: CGSize { get }
+    static var preferredHeight: CGFloat { get }
     static var leftInset: CGFloat { get }
     static var rightInset: CGFloat { get }
     static var topInset: CGFloat { get }

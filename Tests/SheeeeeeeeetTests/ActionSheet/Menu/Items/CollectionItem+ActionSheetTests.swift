@@ -28,7 +28,8 @@ class CollectionItem_ActionSheetTests: QuickSpec {
 }
 
 private class TestType: CollectionItemType {
-    
+
+    static var preferredHeight: CGFloat { 0 }
     static var preferredSize: CGSize { .zero }
     static var leftInset: CGFloat { 0 }
     static var rightInset: CGFloat { .zero }

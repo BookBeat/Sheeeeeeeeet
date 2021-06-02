@@ -29,6 +29,6 @@ extension CollectionItem {
     }
     
     open override var actionSheetCellHeight: Double {
-        Double(itemType.preferredSize.height)
+        Double(itemType.preferredHeight)
     }
 }

@@ -25,12 +25,13 @@ class DemoCollectionViewCell: UICollectionViewCell, CollectionItemType {
     
     
     // MARK: - CollectionItemType
-    
-    static let preferredSize = CGSize(width: 100, height: 100)
+
+    static let preferredHeight: CGFloat = 80
+    static let preferredSize = UICollectionViewFlowLayout.automaticSize
     static let leftInset: CGFloat = 10
     static let rightInset: CGFloat = 20
-    static let topInset: CGFloat = 10
-    static let bottomInset: CGFloat = 10
+    static let topInset: CGFloat = 0
+    static let bottomInset: CGFloat = 0
     static let itemSpacing: CGFloat = 0
     
     

@@ -56,9 +56,9 @@ open class ActionSheetCollectionItemCellHandler: NSObject, UICollectionViewDataS
     
     // MARK: - UICollectionViewDelegateFlowLayout
     
-    open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        item.itemType.preferredSize
-    }
+//    open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        item.itemType.preferredSize
+//    }
     
     open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         UIEdgeInsets(

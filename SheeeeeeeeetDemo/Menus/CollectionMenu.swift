@@ -22,7 +22,7 @@ class CollectionMenu: FoodMenu {
 
     init() {
         let numbers = (0...20)
-        collectionItems = numbers.map { Cell.Item(title: "\($0)") }
+        collectionItems = numbers.map { Cell.Item(title: "Really long number: \($0)") }
         let items = CollectionMenu.menuItems(for: collectionItems)
         super.init(title: "Collection Menu", items: items)
     }
