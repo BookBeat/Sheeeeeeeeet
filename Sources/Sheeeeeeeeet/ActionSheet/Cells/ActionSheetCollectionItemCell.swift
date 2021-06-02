@@ -25,6 +25,7 @@ open class ActionSheetCollectionItemCell: ActionSheetItemCell {
         let flow = UICollectionViewFlowLayout()
         flow.scrollDirection = .horizontal
         flow.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
+        
         let view = UICollectionView(frame: .zero, collectionViewLayout: flow)
         view.backgroundColor = .clear
         contentView.addSubview(view, fill: true)
